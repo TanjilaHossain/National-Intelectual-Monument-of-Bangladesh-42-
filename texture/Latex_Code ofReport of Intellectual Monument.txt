@@ -1,0 +1,584 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=85pt,bottom=50pt,left=50pt,right=50pt]{geometry}
+%Gummi|065|=)
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{fixltx2e}
+\usepackage{amsmath}
+\usepackage{xfrac}
+\usepackage{listings}
+\title{}
+\author{}
+\date{April 2018}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+
+\begin{center}
+    \huge{\textbf{Ahsanullah University of Science \& Technology\\\\}}
+    \Large{Department of Computer Science and Engineering}
+\end{center}
+\vspace{.5cm}
+\vspace{.5cm}
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=.1]{1.jpg}
+\label{cdog}
+\end{figure}
+
+\begin{center}
+    \Large{\textbf{CSE4204: Computer Graphics Lab\\\\}}
+\end{center}
+\begin{center}
+    \large{\textbf{Project Title}}
+\end{center}
+
+\begin{center}
+    \Large{\textbf{National Intellectual Memorial of Bangladesh\\\\}}
+\end{center}
+
+\vspace{.5cm}
+
+\begin{center}
+    \large{\textbf{Submitted By:}}
+\end{center}
+
+\vspace{.8cm}
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{center}
+    \large{\textbf{Group Members}}
+\end{center}
+\begin{table}[htp]
+\centering
+
+\label{my-label}
+\begin{tabular}{lllll}
+\textbf{Naznun Mitu}                 &  &  &  &\textbf{14.02.04.016}        \\
+\textbf{Jubayeath Jahan Jisha}                 &  &  &  &\textbf{14.02.04.017}        \\
+\vspace{.3cm}
+
+\textbf{Tanjila Hossain}                 &  &  &  &\textbf{14.02.04.020}        \\
+ 
+
+
+\textbf{Year}                 &  &  &  &\textbf{4th}        \\
+\textbf{Semester}                &  &  &  &\textbf{2nd}        \\
+\textbf{Section}                &  &  &  &\textbf{A(A1)}        \\
+\textbf{Session}               &  &  &  &\textbf{Spring- 2018}        \\
+         
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{National Intellectual Memorial of Bangladesh}
+A memorial built in memory of the martyred intellectuals of the Bangladesh Liberation War. The memorial is located at Rayerbazar, Mohammadpur Thana in Dhaka.The memorial was designed by architect Farid U Ahmed and Jami Al Shafi. The initial proposal for a memorial at Rayer Bazar was brought forward by Projonmo 71 (organisation of the children of the martyrs of liberation war), who also laid a temporary foundation stone in 1991.
+
+\subsection{Used Tools}
+
+\begin{enumerate}
+\item   Open-source cross-platform IDE : Codeblocks
+\item   A cross-language,cross-platform API : OpenGL
+\item   Language : C
+\end{enumerate}
+
+
+\subsection{Functions}
+
+
+   \begin{itemize}
+     \item The Sky and the grass 
+        \begin{enumerate}
+           \item SkyGrass ()
+        \end{enumerate}
+   \end{itemize}
+
+   \begin{itemize}
+     \item The wall around the monument
+        \begin{enumerate}
+           \item brickWall ()
+           \item PechonerWall ()
+           \item ShamnerWall ()
+        \end{enumerate}
+   \end{itemize}
+
+   \begin{itemize}
+     \item The Monument
+        \begin{enumerate}
+           \item draw\textunderscore monument ()
+        \end{enumerate}
+   \end{itemize}
+
+   \begin{itemize}
+     \item The National flag of Bangladesh
+        \begin{enumerate}
+           \item draw\textunderscore flag ()
+        \end{enumerate}
+   \end{itemize}
+
+    \begin{itemize}
+     \item The water flow
+        \begin{enumerate}
+           \item draw\textunderscore water ()
+        \end{enumerate}
+   \end{itemize}
+
+    \begin{itemize}
+     \item The grass within the small boundary
+        \begin{enumerate}
+           \item grass\textunderscore square ()
+        \end{enumerate}
+   \end{itemize}
+   
+    \begin{itemize}
+     \item Stairs
+        \begin{enumerate}
+           \item Stair1 ()
+        \end{enumerate}
+   \end{itemize}
+   
+    \begin{itemize}
+     \item The floor in front of the monument
+        \begin{enumerate}
+           \item Front\textunderscore Floor1 ()
+        \end{enumerate}
+   \end{itemize}
+   
+    \begin{itemize}
+     \item The trees on the front floor
+        \begin{enumerate}
+           \item makeTree ()
+        \end{enumerate}
+   \end{itemize}
+\newpage
+
+   \begin{itemize}
+     \item Keyboard functionalities like,\\
+     key R or r : Rotation in clockwise meaning about y-axis.\\
+     Key u : Roation about x-axis in clockwise.\\
+     Key d : Roation about x-axis in anti clockwise.
+        \begin{enumerate}
+           \item my\textunderscore keyboard ()
+           \item special\textunderscore key ()
+        \end{enumerate}
+   \end{itemize}
+   
+   \begin{itemize}
+     \item The update functions used to show flow of water, flag and leaf.
+        \begin{enumerate}
+           \item update () : For water flow.
+           \item update2 () : For leaf flow.
+           \item update3 () : For flag flow.
+        \end{enumerate}
+   \end{itemize}
+   
+   
+   \begin{itemize}
+     \item The whole structural functions described above are included in this function.
+        \begin{enumerate}
+           \item drawscene ()
+        \end{enumerate}
+   \end{itemize}
+
+
+
+\begin{lstlisting}
+%given code
+void drawscene()
+{
+    GLUquadric *quadric;
+    quadric = gluNewQuadric();
+
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clear before draw somethings
+    glClearColor(R,G,B,1); // for background -- day night
+    glMatrixMode(GL_MODELVIEW); //Switch to the drawing perspective
+    glLoadIdentity();
+
+    glTranslatef(.5,0,-20);
+
+
+    GLfloat ambientColor[] = {i1,i2,i3,1};
+    glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambientColor);
+
+    // Light 0
+    GLfloat lightColor0[] = {posL1, posL2, posL3, 1.0f};
+    GLfloat lightPos0[] = {0.0f, 8.0f, -4.0f, 1.0f};
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, lightColor0);
+    glLightfv(GL_LIGHT0, GL_POSITION, lightPos0);
+
+    glRotatef (tipangle, 1,0,0);
+    glRotatef(Rangle,0,1,0);
+    glTranslatef(view_x,0,view_z);
+    glRotatef(Rangle,0,1,0);
+    glTranslatef(trans[0],trans[1],trans[2]);
+    //..................................SkyGrass............................
+    SkyGrass(quadric);
+
+    glPushMatrix();
+    glTranslatef(15.0,2.0,-20);
+    brickWall();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-15.0,2.0,-20);
+    brickWall();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,2.0,-30);
+    PechonerWall();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,2,-20);
+    ShamnerWall();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0,-15);
+    ShamnerFloor1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(10.0,0,-15);
+    ShamnerFloor1_14th();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-10.0,0,-15);
+    ShamnerFloor1_14th();
+    glPopMatrix();
+//............................   square GRASS ............................
+    glPushMatrix();
+    glTranslatef(8.0,0,-16);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-8.0,0,-16);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(8.0,0,-10);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-8.0,0,-10);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(13.5,0,-16);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-13.5,0,-16);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(13.5,0,-10);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-13.5,0,-10);
+    grass_square();
+    glPopMatrix();
+//............................ FLAG............................
+    glPushMatrix();
+    glTranslatef(5.5,2.5,-20);
+    draw_flag();
+    glPopMatrix();
+//............................    water     ............................
+    glPushMatrix();
+    glTranslatef(0.0,1.0,-20);
+    draw_water();
+    glPopMatrix();
+//............................    monument ............................
+    glPushMatrix();
+    glTranslatef(5.0,2.0,-25);
+    draw_monument();
+    glPopMatrix();
+
+//....................................................STAIRS...........................
+
+    glPushMatrix();
+    glTranslatef(-8.0,0.0,-15);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-13.0,-1.0,-15);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(8.0,0.0,-16);
+    glRotatef(180,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(13.0,-1.0,-16);
+    glRotatef(180,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-2.0,0.0,-12);
+    glRotatef(90,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(4.0,0.0,-12);
+    glRotatef(90,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(11.0,0.0,-10);
+    glScalef(.5,.5,.5);
+    glRotatef(90,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-11.0,0.0,-10);
+    glScalef(.5,.5,.5);
+    glRotatef(90,0.0,1.0,0.0);
+    Stair1();
+    glPopMatrix();
+
+    //............................ front floor1................................
+    glPushMatrix();
+    glTranslatef(0.0,0.0,0.0);
+    Front_Floor1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0,1.0);
+    glScalef(1,2,1);
+    Front_Floor1();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-10.0,0.0,3.0);
+    glScalef(1,0.2,1);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0,3.0);
+    glScalef(1,0.2,1);
+    grass_square();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(10.0,0.0,3.0);
+    glScalef(1,0.2,1);
+    grass_square();
+    glPopMatrix();
+
+//............................ TREE............................
+    glPushMatrix();
+
+    glTranslatef(10.0,0.0,3.0);
+    glScalef(.2,0.2,.2);
+    glColor3f(0.0,1.0,0.0);
+    glRotatef(-30,0.0,1.0,0.0);
+    glCallList(makeaTree);
+
+    glPopMatrix();
+    glPushMatrix();
+
+    glTranslatef(10.0,0.0,3.0);
+    glScalef(.2,0.2,.2);
+    glColor3f(0.0,1.0,0.0);
+    glRotatef(-5,0.0,1.0,0.0);
+    glCallList(makeaTree);
+
+    glPopMatrix();
+    glPushMatrix();
+
+    glTranslatef(10.0,0.0,3.0);
+    glScalef(.2,0.2,.2);
+    glColor3f(0.0,1.0,0.0);
+    glRotatef(25,0.0,1.0,0.0);
+    glCallList(makeaTree);
+
+    glPopMatrix();
+    glPushMatrix();
+
+    glTranslatef(10.0,0.0,3.0);
+    glScalef(.2,0.2,.2);
+    glColor3f(0.0,1.0,0.0);
+    glRotatef(65,0.0,1.0,0.0);
+    glCallList(makeaTree);
+
+    glPopMatrix();
+    
+    glutSwapBuffers();
+}
+
+\end{lstlisting}
+
+
+\begin{itemize}
+    \centering\large{\textbf{National Intellectual Memorial of Bangladesh}}
+    
+    \begin{figure}[htp]
+    \centering
+    \includegraphics[scale=.6]{im1.PNG}
+    \caption{Intellectual Memorial}
+    \label{cdog}
+    \end{figure}
+\end{itemize}
+\newpage
+
+\begin{itemize}
+    \centering\large{\textbf{Front view}}
+    \begin{figure}[htp]
+    \centering
+    \includegraphics[scale=.42]{im2.PNG}
+    \caption{Intellectual Memorial front view}
+    \label{cdog}
+    \end{figure}
+\end{itemize}
+
+\begin{itemize}
+    \centering\large{\textbf{Top view}}
+    \begin{figure}[htp]
+    \centering
+    \includegraphics[scale=.43]{im3.PNG}
+    \caption{Intellectual Memorial top view}
+    \label{cdog}
+    \end{figure}
+\end{itemize}
+
+\newpage
+
+
+\begin{lstlisting}
+
+void my_keyboard(unsigned char key, int x, int y)
+{
+    switch (key)
+    {
+
+    case 'D':
+    case 'd':
+        tipangle-=5;
+        if(tipangle<5)
+            tipangle=5;
+        break;
+    case 'u':
+    case 'U':
+        tipangle+=5;
+        if(tipangle>90)
+            tipangle=90;
+        break;
+
+    case 'a' :
+        trans[0] = 0.1,trans[1] = 0.1,trans[2] = 0.1;
+        viewangle = 0,tipangle = 5;
+        view_x=0,view_z=-5;
+        break;
+    case 'r':
+    case 'R':
+        Rangle += 2.5f;
+        if (Rangle > 360)
+        {
+            Rangle -= 360;
+        }
+        break;
+
+    }
+    glutPostRedisplay();
+}
+\end{lstlisting}
+
+
+\begin{lstlisting}
+
+void special_key(int key,int x,int y)
+{
+    switch (key)
+    {
+    case GLUT_KEY_LEFT :
+        view_x += .3;
+        break;
+    case GLUT_KEY_RIGHT:
+        view_x -= .3;
+        break;
+    case GLUT_KEY_UP   :
+        view_z += .3;
+        break;
+    case GLUT_KEY_DOWN :
+        view_z -= .3;
+        break;
+    }
+    glutPostRedisplay();
+}
+\end{lstlisting}
+
+\begin{itemize}
+    \centering\large{\textbf{Corner Left view}}
+    \begin{figure}[htp]
+    \centering
+    \includegraphics[scale=.42]{im4.PNG}
+    \caption{Intellectual Memorial Corner Left view}
+    \label{cdog}
+    \end{figure}
+\end{itemize}
+
+\begin{itemize}
+    \centering\large{\textbf{Left view}}
+    \begin{figure}[htp]
+    \centering
+    \includegraphics[scale=.43]{im5.PNG}
+    \caption{Intellectual Memorial left view}
+    \label{cdog}
+    \end{figure}
+\end{itemize}
+
+\newpage
+
+
+   
+\end{document}
